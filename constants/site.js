@@ -2,15 +2,15 @@ export const SITE = {
   name: "Rafiul Bari Turjo",
   shortName: "R.Dev",
   title: "Software Engineer & Full Stack Developer",
-  email: "hello@rafiulbari.dev",
-  phone: "+880 1XXX-XXXXXX",
+  email: "rafiulbari.dev@gmail.com",
+  phone: "+880 1767743402",
   location: "Bangladesh",
   availability: "Available for Freelance Work",
   cvUrl: "https://drive.google.com/file/d/1dr8pPTZvX_16pAAtZFDwnW6ptNXQcBzK/view?usp=drive_link",
   introVideoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
   githubUsername: "TurjoyBari",
   whatsappUrl: "https://wa.me/8801767743402",
-  website: "https://rafiulbari.dev",
+  website: "https://rafiul-bari-dev.vercel.app/",
 };
 
 export const NAV_LINKS = [
