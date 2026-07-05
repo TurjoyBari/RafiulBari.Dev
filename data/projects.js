@@ -13,7 +13,7 @@ export const PROJECTS = [
   {
     id: "vigor",
     name: "Vigor",
-    category: "fitness",
+    category: "business",
     image: "https://i.ibb.co.com/BVL7RQQ8/device-mockup-1-5x-postspark-2026-07-05-09-42-07.png",
     shortDescription:
       "A modern full-stack fitness and gym management platform with role-based dashboards, class booking, payments, and community engagement.",
