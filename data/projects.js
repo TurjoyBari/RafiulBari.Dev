@@ -11,34 +11,48 @@ export const PROJECT_CATEGORIES = [
 
 export const PROJECTS = [
   {
-    id: "medflex",
-    name: "MedFlex",
-    category: "business",
-    image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
+    id: "vigor",
+    name: "Vigor",
+    category: "fitness",
+    image: "https://i.ibb.co.com/BVL7RQQ8/device-mockup-1-5x-postspark-2026-07-05-09-42-07.png",
     shortDescription:
-      "A comprehensive medical management platform connecting doctors, patients, and administrators.",
+      "A modern full-stack fitness and gym management platform with role-based dashboards, class booking, payments, and community engagement.",
     overview:
-      "MedFlex is a medical management website. It helps doctors, patients, and administrators connect easily. It includes patient records, appointment scheduling, and admin dashboards.",
+      "Vigor is a comprehensive fitness and gym management platform designed for fitness enthusiasts, trainers, and administrators. Users can explore fitness classes, book sessions, save favorites, participate in community discussions, and manage their fitness journey. Trainers can create and manage classes, while administrators oversee users, trainers, classes, payments, and platform activities through dedicated dashboards.",
     keyFeatures: [
-      "Real-time patient check-in and medical history logs",
-      "Interactive doctor scheduling calendars",
-      "Patient accounts with easy access to health charts",
-      "Admin logs to track scheduling changes",
+      "Role-based authentication and dashboards for User, Trainer, and Admin",
+      "Fitness class booking with secure Stripe payment integration",
+      "Advanced class search, category filtering, and favorite management",
+      "Trainer application workflow with admin approval and moderation",
+      "Interactive community forum with posts, comments, likes, and replies",
+      "Admin dashboard for managing users, trainers, classes, and transactions"
     ],
-    date: "2025 (4 Weeks)",
-    role: "Full-Stack Developer",
-    technologies: ["MongoDB", "Express", "React", "Node.js"],
+    date: "2026 (4 Weeks)",
+    role: "Full-Stack MERN Developer",
+    technologies: [
+      "React",
+      "Next.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Tailwind CSS",
+      "Better Auth",
+      "JWT",
+      "Stripe"
+    ],
     description:
-      "Built with secure authentication, efficient database management, and fast patient search.",
+      "Developed a production-ready full-stack fitness management platform featuring secure authentication, role-based access control, online class booking, Stripe payment integration, community forum, trainer management, and responsive dashboards. Focused on scalable architecture, optimized performance, and modern UI/UX.",
     links: {
-      live: "https://medflex-demo.vercel.app",
-      clientRepo: "https://github.com/rafiulbariturjo/medflex-client",
-      serverRepo: "https://github.com/rafiulbariturjo/medflex-server",
+      live: "https://vigor-client.vercel.app/",
+      clientRepo: "https://github.com/TurjoyBari/vigor-client",
+      serverRepo: "https://github.com/TurjoyBari/vigor-server",
     },
     screenshots: [
-      "https://images.unsplash.com/photo-1579684385127-1ef15f5a951?w=800&q=80",
-      "https://images.unsplash.com/photo-1584820926268-7a0b44fab4fc?w=800&q=80",
-      "https://images.unsplash.com/photo-1551076809-e186903a65a8?w=800&q=80",
+      "https://i.ibb.co.com/JwkfvqfJ/Screenshot-2026-07-05-092855.png",
+      "https://i.ibb.co.com/nMJHLcp2/Screenshot-2026-07-05-092945.png",
+      "https://i.ibb.co.com/PvDVz39Y/Screenshot-2026-07-05-093022.png",
+      "https://i.ibb.co.com/3m4B1bmn/Screenshot-2026-07-05-093111.png",
+      "https://i.ibb.co.com/h3Sgzw5/device-mockup-1-5x-postspark-2026-07-05-09-51-24.png",
     ],
   },
   {
