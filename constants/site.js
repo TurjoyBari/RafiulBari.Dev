@@ -6,7 +6,7 @@ export const SITE = {
   phone: "+880 1767743402",
   location: "Bangladesh",
   availability: "Available for Freelance Work",
-  cvUrl: "https://drive.google.com/file/d/1dr8pPTZvX_16pAAtZFDwnW6ptNXQcBzK/view?usp=drive_link",
+  cvUrl: "https://drive.google.com/file/d/1BC9PnF_a1cRa7lu8iYyeZ9vK4P98Ly7J/view?usp=sharing",
   introVideoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
   githubUsername: "TurjoyBari",
   whatsappUrl: "https://wa.me/8801767743402",
