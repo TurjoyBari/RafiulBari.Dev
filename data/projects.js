@@ -1,5 +1,6 @@
 export const PROJECT_CATEGORIES = [
   { id: "all", label: "All Projects" },
+  { id: "ai", label: "AI Integrated Projects" },
   { id: "ecommerce", label: "E-Commerce & Retail" },
   { id: "business", label: "Business & Corporate" },
   { id: "blogs", label: "Blogs & Media Outlets" },
@@ -11,10 +12,75 @@ export const PROJECT_CATEGORIES = [
 
 export const PROJECTS = [
   {
+    id: "ai-mock-interview",
+    name: "AI Mock Interview",
+    category: "ai",
+    image: "https://i.ibb.co.com/pq4cRc1/AIMock.png",
+  
+    shortDescription:
+      "A production-ready AI-powered interview preparation platform featuring voice & text interviews, ATS resume analysis, coding challenges, personalized feedback, and interview analytics.",
+  
+    overview:
+      "AI Mock Interview is a comprehensive full-stack interview preparation platform built to simulate real-world software engineering interviews. Users can practice Technical, HR, Behavioral, Coding, System Design, Frontend, Backend, and Full-Stack interviews through intelligent AI-powered conversations. The platform provides personalized interview sessions, real-time voice and text interactions, ATS resume analysis, coding assessments, detailed interview reports, and progress analytics to help users improve their interview performance and confidence.",
+  
+    keyFeatures: [
+      "AI-powered mock interviews with dynamic follow-up questions and personalized feedback",
+      "Voice & Text interview modes using Speech-to-Text and Text-to-Speech for realistic interview simulations",
+      "Topic-based interview generation with customizable topics, difficulty levels, and question distribution",
+      "Integrated coding interview environment with AI-assisted code evaluation and technical assessments",
+      "ATS Resume Analyzer with Resume vs Job Description matching and actionable improvement suggestions",
+      "Comprehensive interview reports featuring ideal answers, strengths, weaknesses, AI insights, and personalized learning roadmaps",
+      "Progress tracking dashboard with interview analytics, weak topic detection, interview readiness score, and performance trends",
+      "Secure authentication, responsive design, and modern UI optimized for desktop, tablet, and mobile devices"
+    ],
+  
+    date: "2026 (6+ Weeks)",
+  
+    role: "Full-Stack AI Developer",
+  
+    technologies: [
+      "Next.js",
+      "React",
+      "JavaScript",
+      "Tailwind CSS",
+      "Shadcn UI",
+      "Framer Motion",
+      "Prisma ORM",
+      "PostgreSQL",
+      "Clerk Authentication",
+      "Google Gemini API",
+      "Speech-to-Text",
+      "Text-to-Speech",
+      "UploadThing",
+      "Vercel"
+    ],
+  
+    description:
+      "Developed a production-ready AI-powered interview preparation platform that delivers realistic interview experiences through intelligent AI conversations. The application supports multiple interview types, customizable topic-based interview generation, Voice & Text modes, ATS resume analysis, coding interviews, detailed AI feedback, interview reports, and performance analytics. Built with a scalable architecture, secure authentication, optimized database design, and a modern responsive user experience.",
+  
+    links: {
+      live: "https://ai-mock-interview-rust-one.vercel.app/",
+      clientRepo: "https://github.com/TurjoyBari/ai-mock-interview",
+      serverRepo: "https://github.com/TurjoyBari/ai-mock-interview",
+    },
+  
+    screenshots: [
+      "https://i.ibb.co.com/wNV9pRJk/Ai-Mock-Home.png",
+      "https://i.ibb.co.com/cKmcMvgC/Ai-Mock-Feture.png",
+      "https://i.ibb.co.com/MkNYCs6T/Ai-Mock-Dashbord.png",
+      "https://i.ibb.co.com/jPbMJLYD/Ai-Mock-Interview.png",
+      "https://i.ibb.co.com/yBFp5T3r/Ai-Mock-Interview-Text.png",
+      "https://i.ibb.co.com/39WQ9154/Ai-Mock-Interview-Voice.png",
+      "https://i.ibb.co.com/GfS378QJ/Ai-Mock-Report.png",
+      "https://i.ibb.co.com/b5Y2xyBG/Ai-Mock-Details.png",
+      "https://i.ibb.co.com/GgBb7kh/AIMock.png"
+    ],
+  },
+  {
     id: "vigor",
     name: "Vigor",
     category: "business",
-    image: "https://i.ibb.co.com/BVL7RQQ8/device-mockup-1-5x-postspark-2026-07-05-09-42-07.png",
+    image: "https://i.ibb.co.com/Z6hL5Lfk/Vigor.png",
     shortDescription:
       "A modern full-stack fitness and gym management platform with role-based dashboards, class booking, payments, and community engagement.",
     overview:
@@ -56,128 +122,221 @@ export const PROJECTS = [
     ],
   },
   {
-    id: "shopnova",
-    name: "ShopNova",
-    category: "ecommerce",
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80",
+    id: "dreams-car",
+    name: "Dreams Car",
+    category: "business",
+  
+    image: "https://i.ibb.co.com/20GmP2BB/Dream-Car-Dashbord.png",
+  
     shortDescription:
-      "Modern e-commerce platform with real-time inventory, cart management, and secure checkout.",
+      "A modern full-stack car marketplace platform that enables users to explore, search, compare, and manage vehicle listings through a responsive and user-friendly interface.",
+  
     overview:
-      "ShopNova is a full-featured online retail platform designed for seamless shopping experiences. It includes product catalogs, wishlists, order tracking, and an admin panel for inventory management.",
+      "Dreams Car is a full-stack automotive marketplace designed to simplify the car buying experience. Users can browse available vehicles, search using advanced filters, explore detailed specifications, save favorite cars, and view comprehensive vehicle information. The platform focuses on delivering a seamless browsing experience with modern UI/UX, responsive design, and optimized performance.",
+  
     keyFeatures: [
-      "Dynamic product filtering and search",
-      "Secure Stripe payment integration",
-      "Real-time inventory tracking",
-      "Admin dashboard with sales analytics",
+      "Browse and explore a wide range of vehicle listings with detailed specifications",
+      "Advanced search, filtering, sorting, and category-based car discovery",
+      "Detailed vehicle pages featuring specifications, pricing, images, and key information",
+      "Responsive user interface optimized for desktop, tablet, and mobile devices",
+      "Modern dashboard for managing listings, favorites, and user activities",
+      "Fast loading performance with optimized images and smooth user experience"
     ],
-    date: "2025 (6 Weeks)",
-    role: "Full-Stack Developer",
-    technologies: ["Next.js", "PostgreSQL", "Stripe", "Tailwind CSS"],
+  
+    date: "2026 (3–4 Weeks)",
+  
+    role: "Full-Stack MERN Developer",
+  
+    technologies: [
+      "React",
+      "Next.js",
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Tailwind CSS",
+      "JWT",
+      "Firebase",
+      "Vercel"
+    ],
+  
     description:
-      "Optimized for performance with SSR, image optimization, and lazy-loaded product grids.",
+      "Developed a production-ready full-stack car marketplace platform that enables users to search, filter, and explore vehicle listings through a clean and intuitive interface. The application emphasizes responsive design, scalable architecture, optimized performance, and an engaging user experience for discovering and managing cars.",
+  
     links: {
-      live: "https://shopnova-demo.vercel.app",
-      clientRepo: "https://github.com/rafiulbariturjo/shopnova",
-      serverRepo: null,
+      live: "https://dreams-car-client.vercel.app/",
+      clientRepo: "https://github.com/TurjoyBari/dreamscar-client",
+      serverRepo: "https://github.com/TurjoyBari/dreamscar-server",
     },
+  
     screenshots: [
-      "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=800&q=80",
-      "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80",
-      "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=800&q=80",
+      "https://i.ibb.co.com/4RmhJ5QG/Dream-Car-Explore.png",
+      "https://i.ibb.co.com/3x2Z5mb/Dream-Car-Details.png",
+      "https://i.ibb.co.com/Gf09GpG6/Dream-Car-Booking.png",
+      "https://i.ibb.co.com/ksvCPJqR/Dream-Car-Add.png",
+      "https://i.ibb.co.com/20GmP2BB/Dream-Car-Dashbord.png",
     ],
   },
   {
-    id: "devpulse",
-    name: "DevPulse Blog",
-    category: "blogs",
-    image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&q=80",
-    shortDescription:
-      "A developer-focused blog platform with markdown support, tags, and reading analytics.",
-    overview:
-      "DevPulse is a technical blog and media outlet for developers. It features rich markdown editing, code syntax highlighting, tag-based navigation, and newsletter subscriptions.",
-    keyFeatures: [
-      "Markdown editor with live preview",
-      "Syntax-highlighted code blocks",
-      "Tag and category filtering",
-      "Newsletter subscription system",
-    ],
-    date: "2024 (3 Weeks)",
-    role: "Frontend Developer",
-    technologies: ["Next.js", "MDX", "Tailwind CSS", "Vercel"],
-    description:
-      "Built with static generation for blazing-fast page loads and excellent SEO performance.",
-    links: {
-      live: "https://devpulse-demo.vercel.app",
-      clientRepo: "https://github.com/rafiulbariturjo/devpulse",
-      serverRepo: null,
-    },
-    screenshots: [
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=80",
-      "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&q=80",
-      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
-    ],
-  },
-  {
-    id: "creatorspace",
-    name: "CreatorSpace",
-    category: "portfolios",
-    image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&q=80",
-    shortDescription:
-      "A premium portfolio template for creative professionals with animated sections.",
-    overview:
-      "CreatorSpace is a stunning personal portfolio website designed for designers, developers, and creatives. It features glassmorphism UI, smooth animations, and a project showcase gallery.",
-    keyFeatures: [
-      "Animated hero with typewriter effect",
-      "Filterable project gallery",
-      "Contact form with validation",
-      "Dark mode with gradient accents",
-    ],
-    date: "2025 (2 Weeks)",
-    role: "Frontend Developer",
-    technologies: ["React", "Framer Motion", "Tailwind CSS", "HeroUI"],
-    description:
-      "Crafted with pixel-perfect attention to detail and luxury micro-interactions throughout.",
-    links: {
-      live: "https://creatorspace-demo.vercel.app",
-      clientRepo: "https://github.com/rafiulbariturjo/creatorspace",
-      serverRepo: null,
-    },
-    screenshots: [
-      "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=800&q=80",
-      "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&q=80",
-      "https://images.unsplash.com/photo-1547658719-da2b51169166?w=800&q=80",
-    ],
-  },
-  {
-    id: "learnhub",
-    name: "LearnHub",
+    id: "book-borrowing",
+    name: "Book Borrowing Management System",
     category: "education",
-    image: "https://images.unsplash.com/photo-1600195077909-46e573870d99?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  
+    image: "https://i.ibb.co.com/vx8pF9yJ/Book-Borrowing-Dashbord.png",
+  
     shortDescription:
-      "An e-learning platform with course management, progress tracking, and video lessons.",
+      "A modern full-stack library management platform that enables users to discover, borrow, and manage books through an intuitive and responsive interface.",
+  
     overview:
-      "LearnHub is an educational platform that enables instructors to create and sell courses. Students can enroll, track progress, take quizzes, and earn certificates upon completion.",
+      "Book Borrowing Management System is a full-stack web application designed to simplify library operations and book borrowing. Users can browse available books, view detailed information, borrow books, monitor their borrowing history, and manage returns through a clean and user-friendly interface. The platform provides secure authentication, efficient book management, and a seamless borrowing experience for both users and administrators.",
+  
     keyFeatures: [
-      "Video course player with progress tracking",
-      "Interactive quizzes and assessments",
-      "Instructor dashboard and analytics",
-      "Certificate generation on completion",
+      "Secure user authentication with role-based access control",
+      "Browse, search, and filter books with detailed information",
+      "Book borrowing and return management with availability tracking",
+      "Admin dashboard for managing books, users, and borrowing records",
+      "Real-time borrowing status updates with responsive user interface",
+      "Fully responsive design optimized for desktop, tablet, and mobile devices"
     ],
-    date: "2025 (8 Weeks)",
-    role: "Full-Stack Developer",
-    technologies: ["Next.js", "MongoDB", "Express", "AWS S3"],
+  
+    date: "2026 (2–3 Weeks)",
+  
+    role: "Full-Stack MERN Developer",
+  
+    technologies: [
+      "React",
+      "Next.js",
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Tailwind CSS",
+      "JWT",
+      "REST API",
+      "Vercel"
+    ],
+  
     description:
-      "Scalable architecture supporting thousands of concurrent learners with CDN-delivered video content.",
+      "Developed a production-ready full-stack library management system that streamlines book borrowing and inventory management. The application features secure authentication, efficient CRUD operations, advanced search and filtering, borrowing workflows, and an intuitive dashboard to enhance the overall user experience while maintaining a scalable and maintainable architecture.",
+  
     links: {
-      live: "https://learnhub-demo.vercel.app",
-      clientRepo: "https://github.com/rafiulbariturjo/learnhub-client",
-      serverRepo: "https://github.com/rafiulbariturjo/learnhub-server",
+      live: "https://book-borrowing.vercel.app/",
+      clientRepo: "https://github.com/TurjoyBari/Book-Borrowing",
+      serverRepo: null,
     },
+  
     screenshots: [
-      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&q=80",
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&q=80",
-      "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&q=80",
+      "https://i.ibb.co.com/8gymNbqL/Book-Borrowing-All.png",
+      "https://i.ibb.co.com/s9V6g4vR/Book-Borrowing-Details.png",
+      "https://i.ibb.co.com/vx8pF9yJ/Book-Borrowing-Dashbord.png",
     ],
+  },
+  {
+    id: "digitools",
+    name: "DigiTools",
+    category: "landing",
+  
+    image: "https://i.ibb.co.com/3YMb8ScD/Digi-Tol-Dashbord.png",
+  
+    shortDescription:
+      "A modern all-in-one digital utility platform offering a collection of productivity tools for developers, students, and everyday users through a fast, responsive, and user-friendly interface.",
+  
+    overview:
+      "DigiTools is a comprehensive web-based utility platform designed to simplify everyday digital tasks. The application provides a wide range of useful tools, allowing users to perform common operations such as text manipulation, data conversion, calculations, encoding/decoding, and other productivity-focused tasks from a single, intuitive interface. The platform emphasizes speed, accessibility, responsive design, and an exceptional user experience.",
+  
+    keyFeatures: [
+      "Collection of multiple productivity tools in a single application",
+      "Powerful search, filtering, and category-based tool discovery",
+      "Fast client-side processing with instant results",
+      "Responsive and modern UI optimized for desktop, tablet, and mobile devices",
+      "Clean and intuitive user experience with reusable components",
+      "Optimized performance with scalable architecture and maintainable codebase"
+    ],
+  
+    date: "2026 (3 Weeks)",
+  
+    role: "Frontend Developer",
+  
+    technologies: [
+      "Next.js",
+      "React",
+      "JavaScript",
+      "Tailwind CSS",
+      "Shadcn UI",
+      "Framer Motion",
+      "Vercel"
+    ],
+  
+    description:
+      "Developed a modern digital utility platform that brings together multiple productivity tools into a single, user-friendly application. The project focuses on performance, responsive design, reusable component architecture, and seamless user experience, enabling users to complete common digital tasks efficiently without switching between multiple websites.",
+  
+    links: {
+      live: "https://digitools-alpha.vercel.app/",
+      clientRepo: "https://github.com/TurjoyBari/digitools",
+      serverRepo: null,
+    },
+  
+    screenshots: [
+      "https://i.ibb.co.com/BHp2kwHP/Digi-Tol-Card.png",
+      "https://i.ibb.co.com/3YMb8ScD/Digi-Tol-Dashbord.png",
+      "https://i.ibb.co.com/tT4G2Cfz/Digi-Tol-All.png",
+    ],
+  },
+  {
+    id: "kinkeeper",
+    name: "KinKeeper",
+    category: "social",
+  
+    image: "https://i.ibb.co.com/dsLbTqYt/Keen-Keeper-Dashbord.png",
+  
+    shortDescription:
+      "A modern full-stack relationship management platform that helps users organize, strengthen, and manage meaningful personal connections through an intuitive and responsive interface.",
+  
+    overview:
+      "KinKeeper is a full-stack relationship management platform designed to help users build and maintain stronger personal relationships. The application enables users to organize contacts, categorize relationships, track important events, set reminders, and manage meaningful interactions through a clean and user-friendly interface. Built with scalability, responsiveness, and modern UI/UX principles, KinKeeper provides a seamless experience across all devices.",
+  
+    keyFeatures: [
+      "Secure authentication and personalized user dashboard",
+      "Create, organize, edit, and manage relationship profiles with ease",
+      "Categorize relationships and maintain detailed personal information",
+      "Track important dates, reminders, and memorable events",
+      "Advanced search, filtering, and sorting for quick relationship management",
+      "Fully responsive and modern UI optimized for desktop, tablet, and mobile devices"
+    ],
+  
+    date: "2026 (3 Weeks)",
+  
+    role: "Full-Stack MERN Developer",
+  
+    technologies: [
+      "Next.js",
+      "React",
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Tailwind CSS",
+      "JWT",
+      "REST API",
+      "Framer Motion",
+      "Vercel"
+    ],
+  
+    description:
+      "Developed a production-ready relationship management platform that enables users to organize and strengthen personal connections through intuitive relationship tracking, reminders, advanced search capabilities, and a responsive dashboard. The project focuses on clean architecture, reusable components, responsive design, and an engaging user experience.",
+  
+    links: {
+      live: "https://kinkeeper-six.vercel.app/",
+      clientRepo: "https://github.com/TurjoyBari/kinkeeper",
+      serverRepo: null,
+    },
+  
+    screenshots: [
+      "https://i.ibb.co.com/dsLbTqYt/Keen-Keeper-Dashbord.png",
+      "https://i.ibb.co.com/nMK7HCvV/Keen-Keeper-Friend.png",
+      "https://i.ibb.co.com/cKm2sB26/Keen-Keeper-Timeline.png",
+    ],
+  
   },
   {
     id: "connectify",
