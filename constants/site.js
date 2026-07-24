@@ -7,7 +7,7 @@ export const SITE = {
   location: "Bangladesh",
   availability: "Available for Freelance Work",
   cvUrl: "https://drive.google.com/file/d/1BC9PnF_a1cRa7lu8iYyeZ9vK4P98Ly7J/view?usp=sharing",
-  introVideoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+  introVideoUrl: "https://youtu.be/QYfpcqDIRXM",
   githubUsername: "TurjoyBari",
   whatsappUrl: "https://wa.me/8801767743402",
   website: "https://rafiul-bari-dev.vercel.app/",
