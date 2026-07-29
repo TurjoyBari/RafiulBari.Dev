@@ -12,6 +12,74 @@ export const PROJECT_CATEGORIES = [
 
 export const PROJECTS = [
   {
+    id: "property-ai",
+  
+    name: "PropertyAI",
+  
+    category: "ai",
+  
+    image: "https://i.ibb.co.com/FLRFLPJJ/propertyai-home.png",
+  
+    shortDescription:
+      "An AI-powered real estate platform that helps users discover, analyze, compare, and evaluate properties through intelligent search, personalized recommendations, market insights, and location-based analytics.",
+  
+    overview:
+      "PropertyAI is a modern AI-powered real estate platform designed to simplify property buying, selling, and investment decisions. Users can explore residential and commercial properties with intelligent AI-assisted search, personalized recommendations, detailed property analysis, neighborhood insights, market trends, and interactive dashboards. The platform combines modern UI, real-time property data, secure authentication, and AI-driven decision support to create a seamless real estate experience.",
+  
+    keyFeatures: [
+      "AI-powered property recommendations based on user preferences and search behavior",
+      "Advanced property search with filters for location, price, property type, bedrooms, amenities, and budget",
+      "Detailed property pages with image galleries, specifications, pricing, nearby facilities, and interactive maps",
+      "AI-generated property insights including investment potential, market trends, and estimated value analysis",
+      "Personalized user dashboard for managing saved properties, favorites, inquiries, and browsing history",
+      "Secure authentication with protected user profiles and personalized experiences",
+      "Responsive modern UI optimized for desktop, tablet, and mobile devices",
+      "Scalable full-stack architecture with optimized API performance and clean user experience"
+    ],
+  
+    date: "2026 (4+ Weeks)",
+  
+    role: "Full-Stack MERN Developer",
+  
+    technologies: [
+      "Next.js",
+      "React",
+      "JavaScript",
+      "Tailwind CSS",
+      "Shadcn UI",
+      "Framer Motion",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT Authentication",
+      "Google Gemini API",
+      "Cloudinary",
+      "React Hook Form",
+      "Axios",
+      "Vercel"
+    ],
+  
+    description:
+      "Developed a modern AI-powered real estate platform that enhances property discovery through intelligent search, personalized recommendations, AI-generated market insights, and interactive property management features. Built with a scalable full-stack architecture, responsive UI, secure authentication, optimized APIs, and AI integration to deliver a seamless user experience for buyers, sellers, and investors.",
+  
+    links: {
+      live: "https://property-ai-frontend-vert.vercel.app/",
+      clientRepo: "https://github.com/TurjoyBari/property-ai-frontend",
+      serverRepo: "https://github.com/TurjoyBari/property-ai-backend",
+    },
+  
+    screenshots: [
+      "https://i.ibb.co.com/FLRFLPJJ/propertyai-home.png",
+      "https://i.ibb.co.com/1J9GptBh/propertyai-Comersial-Card.png",
+      "https://i.ibb.co.com/KxxycFGs/propertyai-Dashbord-Admin.png",
+      "https://i.ibb.co.com/4ZQqH1xw/propertyai-Fetture.png",
+      "https://i.ibb.co.com/WWpnK0fV/propertyai-AIAssistent.png",
+      "https://i.ibb.co.com/TDNQ7Nvq/propertyai-Ai-Property-Match.png",
+      "https://i.ibb.co.com/pj2LVv0r/propertyai-Card-Details.png",
+    ],
+  },
+
+  {
     id: "ai-mock-interview",
     name: "AI Mock Interview",
     category: "ai",
@@ -63,6 +131,7 @@ export const PROJECTS = [
       clientRepo: "https://github.com/TurjoyBari/ai-mock-interview",
       serverRepo: "https://github.com/TurjoyBari/ai-mock-interview",
     },
+    
   
     screenshots: [
       "https://i.ibb.co.com/wNV9pRJk/Ai-Mock-Home.png",
@@ -76,6 +145,8 @@ export const PROJECTS = [
       "https://i.ibb.co.com/GgBb7kh/AIMock.png"
     ],
   },
+
+
   {
     id: "vigor",
     name: "Vigor",
