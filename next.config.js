@@ -16,14 +16,22 @@ const nextConfig = {
         hostname: "images.unsplash.com",
       },
       {
-        protocol: 'https',
-        hostname: 'i.ibb.co.com',
-      }
+        protocol: "https",
+        hostname: "i.ibb.co.com",
+      },
+      {
+        protocol: "https",
+        hostname: "lh3.googleusercontent.com",
+      },
     ],
     formats: ["image/avif", "image/webp"],
   },
   experimental: {
-    optimizePackageImports: ["@gravity-ui/icons", "@heroui/react", "framer-motion"],
+    optimizePackageImports: [
+      "@gravity-ui/icons",
+      "@heroui/react",
+      "framer-motion",
+    ],
   },
 };
 

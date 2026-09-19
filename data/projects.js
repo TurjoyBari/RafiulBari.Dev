@@ -64,8 +64,8 @@ export const PROJECTS = [
   
     links: {
       live: "https://property-ai-frontend-vert.vercel.app/",
-      clientRepo: "https://github.com/TurjoyBari/property-ai-frontend",
-      serverRepo: "https://github.com/TurjoyBari/property-ai-backend",
+      clientRepo: "https://github.com/TurjoyBari/PropertyAI-frontend",
+      serverRepo: "https://github.com/TurjoyBari/PropertyAI-backend",
     },
   
     screenshots: [

@@ -5,7 +5,13 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import ArrowDownToLine from "@gravity-ui/icons/ArrowDownToLine";
 import CirclePlay from "@gravity-ui/icons/CirclePlay";
-import { SITE, PROFESSIONS, DISPLAY_SOCIAL, HERO_INTRO, HERO_TECH_BADGES } from "@/constants/site";
+import {
+  SITE,
+  PROFESSIONS,
+  DISPLAY_SOCIAL,
+  HERO_INTRO,
+  HERO_TECH_BADGES,
+} from "@/constants/site";
 import { useTypewriter } from "@/hooks/useTypewriter";
 import {
   fadeUp,
@@ -77,7 +83,10 @@ export default function Hero() {
           className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2 lg:gap-16"
         >
           {/* Left column */}
-          <motion.div variants={staggerContainer} className="flex flex-col gap-6">
+          <motion.div
+            variants={staggerContainer}
+            className="flex flex-col gap-6"
+          >
             <motion.div variants={fadeUp}>
               <span className="hero-badge inline-flex items-center gap-2.5 rounded-full px-5 py-2 text-xs font-semibold tracking-wide">
                 <span
@@ -97,7 +106,10 @@ export default function Hero() {
               </h1>
             </motion.div>
 
-            <motion.div variants={fadeUp} className="min-h-[2.5rem] sm:min-h-[3rem]">
+            <motion.div
+              variants={fadeUp}
+              className="min-h-[2.5rem] sm:min-h-[3rem]"
+            >
               <p className="text-xl font-semibold text-text-secondary sm:text-2xl">
                 <span className="gradient-text">{typedProfession}</span>
                 <motion.span
@@ -132,7 +144,11 @@ export default function Hero() {
                     aria-hidden="true"
                     className="inline-flex"
                     animate={{ scale: [1, 1.08, 1] }}
-                    transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+                    transition={{
+                      duration: 2,
+                      repeat: Infinity,
+                      ease: "easeInOut",
+                    }}
                   >
                     <CirclePlay width={18} height={18} />
                   </motion.span>
@@ -143,7 +159,9 @@ export default function Hero() {
             </motion.div>
 
             <motion.div variants={fadeUp} className="pt-4">
-              <p className="mb-3 text-sm font-medium text-text-muted">Follow me</p>
+              <p className="mb-3 text-sm font-medium text-text-muted">
+                Follow me
+              </p>
               <SocialIconGroup links={DISPLAY_SOCIAL} />
             </motion.div>
           </motion.div>
@@ -164,13 +182,17 @@ export default function Hero() {
                   scale: [1, 1.08, 1],
                   opacity: [0.4, 0.7, 0.4],
                 }}
-                transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
+                transition={{
+                  duration: 6,
+                  repeat: Infinity,
+                  ease: "easeInOut",
+                }}
               />
 
               <div className="gradient-border hero-ring-glow relative h-full w-full rounded-full p-[3px]">
                 <div className="glass-strong relative h-full w-full overflow-hidden rounded-full">
                   <Image
-                    src="https://i.ibb.co.com/1Jn8TLv1/Rafi-Ul-Bari.png"
+                    src="https://lh3.googleusercontent.com/d/1jSTJ68iMXfX-lpMujViu4_q92VDmmdEg"
                     alt={`${SITE.name} — Professional portrait`}
                     fill
                     priority
@@ -189,7 +211,9 @@ export default function Hero() {
                 <motion.div
                   key={badge.label}
                   className={`absolute ${badge.position} z-10`}
-                  variants={index % 2 === 0 ? floatingAnimation : floatingAnimationSlow}
+                  variants={
+                    index % 2 === 0 ? floatingAnimation : floatingAnimationSlow
+                  }
                   animate="animate"
                 >
                   <span className="glass-card inline-flex items-center rounded-2xl px-4 py-2.5 text-xs font-semibold text-white shadow-xl backdrop-blur-xl sm:text-sm">
